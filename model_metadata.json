@@ -1,0 +1,56 @@
+{
+    "model_name": "Gradient Boosting",
+    "trained_at": "2026-10-15 10:54:15",
+    "best_metrics": {
+        "accuracy": 0.8005677785663591,
+        "precision": 0.654485049833887,
+        "recall": 0.5267379679144385,
+        "f1_score": 0.5837037037037037,
+        "roc_auc": 0.843302591128678
+    },
+    "all_models_compared": {
+        "Logistic Regression": {
+            "accuracy": 0.7381121362668559,
+            "precision": 0.504302925989673,
+            "recall": 0.7834224598930482,
+            "f1_score": 0.6136125654450262,
+            "roc_auc": 0.8417318969748638
+        },
+        "Random Forest": {
+            "accuracy": 0.7558552164655784,
+            "precision": 0.5271739130434783,
+            "recall": 0.7780748663101604,
+            "f1_score": 0.6285097192224622,
+            "roc_auc": 0.8400617427471647
+        },
+        "Gradient Boosting": {
+            "accuracy": 0.8005677785663591,
+            "precision": 0.654485049833887,
+            "recall": 0.5267379679144385,
+            "f1_score": 0.5837037037037037,
+            "roc_auc": 0.843302591128678
+        }
+    },
+    "input_features": [
+        "customerID",
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ]
+}
